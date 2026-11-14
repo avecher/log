@@ -48,3 +48,20 @@ audio, video {
     width: 100%;
     margin-top: 10px;
 }
+/* Inline-изображения внутри текста */
+p img, li img {
+    height: 3em;
+    vertical-align: middle;
+    margin: 0 4px;
+    max-width: 100%;
+}
+
+/* Блочные изображения (отдельные скриншоты) */
+article img:not(p img):not(li img) {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #d0d7de;
+    border-radius: 4px;
+}
