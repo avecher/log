@@ -15,3 +15,6 @@ layout: default
 </audio>
 
 [Послушать оригинал в ВК](https://vk.com/) 
+
+
+<iframe src="https://player.mave.digital?podcast=avecher&episode=151&color=rgb(0,0,0)&mute=1&date=1&download=1" style="width: 100%" height="235" scrolling="no" frameborder="no"></iframe>
