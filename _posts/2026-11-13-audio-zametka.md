@@ -10,7 +10,7 @@ layout: default
 Но решил оставить как сырой звук. Это честнее.
 
 <audio controls preload="metadata" style="width: 100%; margin-top: 10px;">
-  <source src="https://github.com/avecher/weblog/releases/download/v1/audio-note-01.mp3" type="audio/mpeg">
+  <source src="https://github.com/avecher/weblog/releases/download/audio/01_audio.mp3" type="audio/mpeg">
   Ваш браузер не поддерживает аудио.
 </audio>
 
