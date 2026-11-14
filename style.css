@@ -50,11 +50,10 @@ audio, video {
 }
 article img {
     display: block;
-    width: 100%;           /* Занимает всю ширину контейнера */
-    max-width: 680px;      /* Не шире основного блока */
+    max-width: 100%;       /* Не шире родительского блока (680px) */
     height: auto;          /* Пропорции сохраняются */
-    margin: 24px auto;
+    margin: 24px auto;     /* Центрирование + отступы */
     border: 1px solid #d0d7de;
     border-radius: 6px;
-    image-rendering: auto; /* Сбрасывает Retina-оптимизацию */
+    box-sizing: border-box; /* Рамка и padding включены в ширину */
 }
