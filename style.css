@@ -48,22 +48,12 @@ audio, video {
     width: 100%;
     margin-top: 10px;
 }
-/* Inline-изображения внутри текста */
-p img, li img {
-    height: 2em;          /* Уменьшили высоту для безопасности */
-    width: auto;          /* Явно разрешаем автомасштабирование ширины */
-    vertical-align: middle;
-    margin: 0 4px;
-    object-fit: contain;  /* Гарантирует, что картинка не обрежется */
-    display: inline-block; /* Фиксирует поведение как строчного элемента */
-}
-
-/* Блочные изображения */
-article img:not(p img):not(li img) {
+/* Все изображения в постах */
+article img {
     display: block;
-    max-width: 100%;      /* Никогда не шире контейнера */
-    height: auto;         /* Сохраняем пропорции */
-    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    margin: 24px auto;
     border: 1px solid #d0d7de;
-    border-radius: 4px;
+    border-radius: 6px;
 }
