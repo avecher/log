@@ -1,4 +1,4 @@
 title: Хроника проекта
-baseurl: /weblog
+baseurl: ""
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
