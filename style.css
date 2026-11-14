@@ -49,7 +49,7 @@ audio, video {
     margin-top: 10px;
 }
 /* Картинки внутри параграфов и списков */
-p img, li img {
+/*p img, li img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -60,7 +60,7 @@ p img, li img {
 }
 
 /* Картинки напрямую в article (если такие будут) */
-article > img {
+/*article > img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -68,4 +68,15 @@ article > img {
     border: 1px solid #d0d7de;
     border-radius: 6px;
     box-sizing: border-box;
+} /*
+/* Изображения внутри абзацев и списков */
+p img, 
+li img {
+    display: block !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 24px auto !important;
+    border: 1px solid #d0d7de !important;
+    border-radius: 6px !important;
+    box-sizing: border-box !important;
 }
