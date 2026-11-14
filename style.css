@@ -48,12 +48,14 @@ audio, video {
     width: 100%;
     margin-top: 10px;
 }
-/* Все изображения в постах */
 article img {
     display: block;
     max-width: 100%;
-    height: auto;
+    max-height: 600px;       /* Ограничение по высоте для огромных скриншотов */
+    width: auto;             /* Ширина подстраивается под высоту */
+    height: auto;            /* Сохраняем пропорции */
     margin: 24px auto;
     border: 1px solid #d0d7de;
     border-radius: 6px;
+    image-rendering: -webkit-optimize-contrast; /* Улучшает чёткость при масштабировании */
 }
