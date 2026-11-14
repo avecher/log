@@ -48,9 +48,21 @@ audio, video {
     width: 100%;
     margin-top: 10px;
 }
-article img {
+/* Картинки внутри параграфов и списков */
+p img, li img {
     display: block;
-    max-width: calc(100% - 48px); /* Вычитаем margin из ширины */
+    max-width: 100%;
+    height: auto;
+    margin: 24px auto;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Картинки напрямую в article (если такие будут) */
+article > img {
+    display: block;
+    max-width: 100%;
     height: auto;
     margin: 24px auto;
     border: 1px solid #d0d7de;
