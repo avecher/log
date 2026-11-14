@@ -1,2 +1,3 @@
 title: Хроника проекта
 markdown: kramdown
+permalink: /:year/:month/:day/:title/
