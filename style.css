@@ -1,0 +1,50 @@
+body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 
+                 "Liberation Mono", "Courier New", monospace;
+    font-size: 15px;
+    max-width: 680px;
+    margin: 40px auto;
+    padding: 0 20px;
+    background: #f6f8fa;
+    color: #24292e;
+    line-height: 1.6;
+}
+h1 a {
+    color: #24292e;
+    text-decoration: none;
+    border-bottom: 2px solid #d0d7de;
+    padding-bottom: 4px;
+}
+article {
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px dashed #d0d7de;
+}
+time {
+    color: #8c959f;
+    font-size: 0.85em;
+    display: block;
+    margin-bottom: 4px;
+}
+h2 a {
+    color: #0969da;
+    text-decoration: none;
+    font-weight: normal;
+}
+h2 a:hover {
+    text-decoration: underline;
+}
+strike, del {
+    text-decoration: line-through;
+    color: #8250df;
+    background: #fff8c5;
+    padding: 0 3px;
+    border-radius: 2px;
+}
+p {
+    margin: 0.8em 0;
+}
+audio, video {
+    width: 100%;
+    margin-top: 10px;
+}
