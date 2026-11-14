@@ -1,0 +1,4 @@
+body { font-family: 'Courier New', monospace; max-width: 700px; margin: 0 auto; padding: 20px; background: #f6f8fa; color: #24292e; }
+time { color: #8c959f; display: block; margin-bottom: 5px; }
+strike { text-decoration: line-through; color: #8250df; background: #fff8c5; padding: 0 2px; }
+a { color: #0969da; text-decoration: none; }
