@@ -50,17 +50,19 @@ audio, video {
 }
 /* Inline-изображения внутри текста */
 p img, li img {
-    height: 3em;
+    height: 2em;          /* Уменьшили высоту для безопасности */
+    width: auto;          /* Явно разрешаем автомасштабирование ширины */
     vertical-align: middle;
     margin: 0 4px;
-    max-width: 100%;
+    object-fit: contain;  /* Гарантирует, что картинка не обрежется */
+    display: inline-block; /* Фиксирует поведение как строчного элемента */
 }
 
-/* Блочные изображения (отдельные скриншоты) */
+/* Блочные изображения */
 article img:not(p img):not(li img) {
     display: block;
-    width: 100%;
-    max-width: 600px;
+    max-width: 100%;      /* Никогда не шире контейнера */
+    height: auto;         /* Сохраняем пропорции */
     margin: 20px auto;
     border: 1px solid #d0d7de;
     border-radius: 4px;
